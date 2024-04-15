@@ -1,0 +1,222 @@
+variables and assignment
+-------------------------
+ex:a=5
+
+variable re assignment
+a=5
+a=7
+
+baasic data types:
+float_1
+int_1
+bool_1
+
+comments and math operators
+-----------------------------
+ex: # prints ajay
+ print("ajay")
+exponentiation=**
+floor division= //
+modulo= %
+
+assignment operators:
+a=a+5
+a+=5
+
+operator precedence:
+-()
+-**
+-%,/,//,*
+-+,-
+left to right
+
+print():
+to display output.
+
+float:
+round(expression,2-number of places)
+
+string:
+sequence of characters
+ex:
+abc="raju kumar"
+print(abc[2])
+string slicing:
+ex:
+print(abc[3:5])
+String concatenation:
+means adding a string with + operation
+
+type() and str():
+--------------------
+type():used to find data type
+str():
+escape sequence:
+-----------------
+\t-to getaspace
+\n-tonew line
+\'and\'
+\\
+
+input():
+name=input("enter your name:")
+
+int() and float():
+a=int(input("enter a number"))
+
+function:
+defening a function is also known as a creating a function
+-----------------------------------------------------------
+
+ex:def function name():
+print(4)
+
+functionname()
+
+function parameters:
+-------------------
+def ajay(parameter)
+print(parameter+2)
+ajay(8)
+
+multiple parameters:
+----------------------
+first_str="the number"
+def function_name(p1,p2,p3)
+ print(p1+str(p2)+p3)
+function_name(first_str,5,"is an integer")
+
+default parameters:
+def a(b=7,c=8)
+print(b*c)
+a()
+
+return:in place of print we can use
+but it does not print anything
+
+import module
+------------------
+ex: import random
+print(random.randit(1,10))
+
+function import:
+--------------------------
+from random import randint()
+print(randint())
+
+-from random import*
+
+variable scope
+---------------
+global-outside a function
+local-inside a function
+
+globalstatment:
+----------------
+global-variablename
+ex:global ajay
+
+intro to flow control:
+-----------------------
+comparison operators:
+----------------------
+->
+-<
+-<=
+->=
+-==
+-!=
+we can also use for strings
+boolean operators:
+-------------------
+-and
+-or
+-not
+
+if statment:
+-------------
+if ajay:
+print("ajay")
+
+else statment:
+
+nested if and else statments:
+-----------------------------
+if:
+  if:
+  else:
+else:
+or
+if:
+else:
+   if:
+else:
+ if
+
+elif: replacement of nested if
+-----
+if:
+elif:
+else:
+truthy and falsey values for strings:
+-------------------------------------
+bool:
+
+while loops:
+-------------
+while condition:
+
+print()
+condition a+=1
+
+avoid infnite loop
+
+forloops:
+----------
+
+range():
+-------
+one argument
+ex:a=range(5)
+for i in a:
+    print(i)
+two arguments:
+ex:range(5,10)
+
+three arguments:
+ex:range(20,1,5)
+
+string methods:
+======================
+upper():
+lower():
+isupper():returns true/false
+islower():true/false
+
+multiple string methods
+-----------------------
+.is title()
+.startswith() and endswith()
+.join:
+combines string
+.split()
+
+string method2:
+---------------
+.rjust():integer is enterd as argument
+.ljust(): add spaces left side
+.center():
+
+.strip(),.rstrip(),.lstrip(leftside):removes white spaces from the character
+ex:prin
+
+.replace():takes 2 arguments
+ex:
+print("good morning".replace("morning","afternoon"))
+
+
+
+
+
+
+

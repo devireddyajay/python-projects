@@ -1,0 +1,232 @@
+https://www.w3schools.com/java/java_data_types.asp
+- class keyword is used to declare a class in java
+- publickeyword is used in an acessmodifier
+-static is a keyword. If we declare any method as static, it is known as 
+the static method. The core advantage of the static method is that there 
+is no need to create an object to invoke the static method
+- void is the return type of the method. It means it doesn't return any 
+value.
+-main represents the string point of the program
+-string[] args or string args[] is used for command line argument
+-Sytem.Out.println() is used to print stmt
+
+to run a java code in command prompt:-
+-Save the code in Notepad as "Main.java". Open Command Prompt (cmd.exe), navigate to the directory where you saved your file, and type "javac Main.java":
+javac Main.java
+java main
+it shows output
+
+-main() method is required and we use in every program 
+any code inside the main() will be executed
+println() method is used to print text in java
+
+double quotes:
+when you are working with textit must be wrapped inside double quotation marks"".
+ex:
+System.out.println("This sentence will work!");
+
+there is also a print()
+ex:
+System.out.print("Hello World! ");
+
+java comments:
+commentscan be used to explian javaa code, and to make it more readable
+single line comments //
+for multiline comments /* */
+
+java variables:
+string-stores text
+int- stores integers
+float-stores floating point number
+char-stores single characters
+boolean-stores values with two states:true false
+
+ex:type variableName = value;
+string name= "ajay"
+int a=15;
+float myFloatNum = 5.99f;
+char myLetter = 'D';
+boolean myBool = true;
+final varaiable:
+if you don't want others to overwrite the existing value we use the final keyword.
+ex:final int a= 15;
+
+declare multiple variables:
+int x=5,y=6,z=10;
+int x=y=z=50;
+
+identifiers:
+the unique names are called identifiers
+ex:int x=10;
+-here x is a identifier
+-java keywords can not be used as a identifiers
+DATA TYPES:
+-----------
+ex:int myNum = 5;               // Integer (whole number)
+float myFloatNum = 5.99f;    // Floating point number
+char myLetter = 'D';         // Character
+boolean myBool = true;       // Boolean
+String myText = "Hello";     // String
+
+we have 2 types primitive and non primitive data types:
+primitive: byte,short,int,long,float,double,boolean,char.
+non primitive:strings,arrays and classes
+
+primitive data types: has specific size.
+numbers divided into 2 types:
+integer types: byte,short,int and long
+floating point types:float and double.
+float has six or seven decimal digits
+but double has above 15 digits
+e indicates power of 10
+
+type casting:
+widening casting(automatically):
+converting a smaller type to a large type
+ex:int myInt = 9;
+    double myDouble = myInt
+narrowing casting(manually):
+convert a larger type to a smaller size type
+ex:double myDouble = 9.78d;
+    int myInt = (int) myDouble;
+
+operators:
+arithmetic operators:+,-,*,/,%,++,--
+assignment operators: =
+comparison operators:==,!=,>,<,>=,<=
+logical operators: &&,||,!
+bitwise operators
+
+java strings:
+
+to calculate length: length()
+touppercase()
+tolowercase()
+indexof():The indexOf() method returns the index (the position) of the first occurrence of a specified text in a string 
+
+concatenation:
+the + operator is used between strings to combine them,it is called concatenation.
+we can also use concat().
+
+java special characters:\"\"
+\n-new line
+\r-carriage return
+\t-tab
+\b-backspace
+\f-form feed
+
+java math:
+math.max(x,y) to find highest value of x and y.
+math.min()-to find lowest value of x and y.
+math.sqrt()-to find square root of number
+math.abs(x)-returns positive value of x
+math.random()-returns a random number between 0.0 to 1.0
+to get random number from 0 to 100 int randomNum = (int)(Math.random() * 101);
+
+java booleans:
+yes/no
+on/off
+true/false
+but java can only store true or false
+
+conditions and if else:
+a<b,a>b,a>=b,a,=b,a==b,a!=b
+conditional statments:
+if,else,elseif
+switch-to specify many alternative blocks of code to be executed
+
+if statement:
+if(condition){}
+ex:int x=20 ,int y=18;
+ if(x>y){
+system.out.println("x is greatervthan y");
+}
+
+else:
+if (condition)
+{
+}else{
+}
+
+elseif:
+if(condition1)
+{}
+else if(condition 2)
+{
+}
+else{}
+
+shorthand if else:
+variable=(condition)? experessiontrue:expression false;
+ex:String result = (time < 18) ? "Good day." : "Good evening.";
+System.out.println(result);
+
+switch:
+instead of writing many if else statements you can use the switch statement
+ex:
+switch(expression){
+case x:
+break;
+case y:
+break;
+default:
+}
+ex:The switch expression is evaluated once.
+The value of the expression is compared with the values of each case.
+If there is a match, the associated block of code is executed.
+ex:public class Main {
+  public static void main(String[] args) {
+    int day = 4;
+    switch (day) {
+      case 1:
+        System.out.println("Monday");
+        break;
+      case 2:
+        System.out.println("Tuesday");
+        break;
+      case 3:
+        System.out.println("Wednesday");
+        break;
+      case 4:
+        System.out.println("Thursday");
+        break;
+      case 5:
+        System.out.println("Friday");
+        break;
+      case 6:
+        System.out.println("Saturday");
+        break;
+      case 7:
+        System.out.println("Sunday");
+        break;
+    }
+  }
+}
+
+when java reaches a break keyword,it breaks out of the switch block.
+when a match is found and the job is done,it's time for a break.
+default keyword:
+the default keyword specifies some code to run if there is no case match.
+ex:
+  default:
+    System.out.println("Looking forward to the Weekend");
+While loop:
+-----------
+while(condition){
+}
+
+ex:int i=0
+while(i<5){
+system.out.println(i);
+i++;
+}
+
+
+
+
+
+
+
+
+ 
+
